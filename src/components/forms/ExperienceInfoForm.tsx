@@ -3,7 +3,7 @@ import { ExperienceDataType } from "../../types/type";
 
 type experienceInfoFormProps = {
   data: ExperienceDataType;
-  onChange: () => void;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 const ExperienceInfoForm = ({ data, onChange }: experienceInfoFormProps) => {
   console.log(data);

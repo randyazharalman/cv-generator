@@ -3,7 +3,7 @@ import { PersonalInfoDataType } from "../../types/type";
 
 type personalInfoFormProps = {
   data: PersonalInfoDataType;
-  onChange: () => void;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 const PersonalInfoForm = ({ data, onChange }: personalInfoFormProps) => {
   return (

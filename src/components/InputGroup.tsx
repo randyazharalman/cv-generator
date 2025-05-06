@@ -5,7 +5,7 @@ type inputGroupProps = {
   value: string;
   name: string;
   type: string;
-  onChange: () => void;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 const InputGroup = ({
   id,

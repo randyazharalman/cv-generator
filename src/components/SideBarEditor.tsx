@@ -9,7 +9,7 @@ type sideEditorProps = {
   educationInfoData: EducationDataType;
   experienceInfoData: ExperienceDataType;
   activeTab: string;
-  onChange: () => void;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 const SideBarEditor = ({
   personalInfoData,

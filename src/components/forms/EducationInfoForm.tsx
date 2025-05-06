@@ -3,7 +3,7 @@ import { EducationDataType } from "../../types/type";
 
 type educationInfoFormProps = {
   data: EducationDataType;
-  onChange: () => void;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
 const EducationInfoForm = ({ data, onChange }: educationInfoFormProps) => {
