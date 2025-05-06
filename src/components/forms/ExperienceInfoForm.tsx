@@ -1,4 +1,3 @@
-import React from "react";
 import InputGroup from "../InputGroup";
 import { ExperienceDataType } from "../../types/type";
 

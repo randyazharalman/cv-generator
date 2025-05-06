@@ -1,4 +1,3 @@
-import React from 'react'
 import { PersonalInfoDataType } from '../../types/type'
 import { LuMail, LuMapPin, LuPhone } from 'react-icons/lu'
 

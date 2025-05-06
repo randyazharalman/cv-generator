@@ -1,4 +1,3 @@
-import React from "react";
 import { EducationDataType } from "../../types/type";
 import { formatDate } from "../../utils/utils";
 

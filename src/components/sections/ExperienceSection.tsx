@@ -1,4 +1,3 @@
-import React from "react";
 import { ExperienceDataType } from "../../types/type";
 
 type ExperienceSectionProps = {
